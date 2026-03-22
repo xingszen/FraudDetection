@@ -1,0 +1,12 @@
+{
+  "raw_input_path": "hdfs://localhost:9000/user/student/assignment/raw/financial_transactions/sample_100000_sorted.csv",
+  "curated_output_path": "hdfs://localhost:9000/user/student/assignment/batch/curated/financial_transactions",
+  "batch_output_volume": "hdfs://localhost:9000/user/student/assignment/batch/transaction_volume",
+  "batch_output_fraud": "hdfs://localhost:9000/user/student/assignment/batch/fraud_profiles",
+  "potential_offenders_hdfs_path": "hdfs://localhost:9000/user/student/assignment/realtime/data/potential_offenders",
+    
+ "mongodb_uri": "mongodb+srv://xingszen:ecxs1111@cluster0.erotkrx.mongodb.net/?appName=Cluster0",
+  "mongodb_db": "FraudDetectionDB",
+  "mongodb_offenders_collection": "PotentialOffenders",
+  "mongodb_profiles_collection": "FraudProfiles"
+}
