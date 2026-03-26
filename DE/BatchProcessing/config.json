@@ -1,0 +1,7 @@
+{
+  "raw_input_path": "hdfs://localhost:9000/user/student/assignment/raw/financial_transactions/sample_100000_sorted.csv",
+  "curated_output_path": "hdfs://localhost:9000/user/student/assignment/batch/curated/financial_transactions",
+  "batch_output_volume": "hdfs://localhost:9000/user/student/assignment/batch/transaction_volume",
+  "batch_output_fraud": "hdfs://localhost:9000/user/student/assignment/batch/fraud_profiles",
+  "potential_offenders_hdfs_path": "hdfs://localhost:9000/user/student/assignment/realtime/data/potential_offenders"
+}
